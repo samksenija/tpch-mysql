@@ -3,3 +3,17 @@
 Connect to mysql shell: `\connect root@localhost`
 
 Schemas: https://dev.mysql.com/doc/heatwave/en/mys-hw-tpch-quickstart.html#mys-hw-tpch-quickstart-run-queries
+
+## WSL:
+
+`cd /mnt/c/Users/User/Desktop/TPC-H/dbgen`
+
+## MySQL Workbench:
+
+`SET GLOBAL local_infile = 1;`
+
+When creating/editing connection:
+- Go to Home screen
+- Hover your connection → click Edit Connection
+- Go to Advanced tab
+- Add: `OPT_LOCAL_INFILE=1`

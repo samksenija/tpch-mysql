@@ -17,3 +17,6 @@ When creating/editing connection:
 - Hover your connection → click Edit Connection
 - Go to Advanced tab
 - Add: `OPT_LOCAL_INFILE=1`
+
+## Functions & Code
+`for f in *.tbl; do sed 's/|$//' "$f" > "clean_$f"; done`

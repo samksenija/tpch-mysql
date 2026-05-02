@@ -19,4 +19,6 @@ When creating/editing connection:
 - Add: `OPT_LOCAL_INFILE=1`
 
 ## Functions & Code
-`for f in *.tbl; do sed 's/|$//' "$f" > "clean_$f"; done`
+Generate data `./dbgen -s 1` 
+
+Clean data `for f in *.tbl; do sed 's/|$//' "$f" > "clean_$f"; done`

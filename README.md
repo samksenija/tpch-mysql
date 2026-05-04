@@ -22,3 +22,6 @@ When creating/editing connection:
 Generate data `./dbgen -s 1` 
 
 Clean data `for f in *.tbl; do sed 's/|$//' "$f" > "clean_$f"; done`
+
+## How to Use MySQL Workbench Performance Reports 
+https://oneuptime.com/blog/post/2026-03-31-mysql-mysql-workbench-performance-reports/view
